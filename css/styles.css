@@ -11,7 +11,7 @@
 body {
   background-color: #f5f5f5;
   color: var(--primary-text-color);
-  font-family: roboto;
+  font-family: roboto, bold;
 }
 
 ul {
@@ -24,9 +24,11 @@ header {
 
 .logo {
   font-family: Raleway;
+  font-style: bold;
   font-size: 26px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 1.19;
+  letter-spacing: 3%;
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
 }
@@ -34,9 +36,11 @@ header {
   color: var(--accent-color);
 }
 .site-nav {
+  font-style: medium;
   font-size: 14px;
   font-weight: 500;
-  line-height: 100%;
+  line-height: 1.14;
+  letter-spacing: 2%;
   text-decoration: none;
 }
 .site-nav-link {
@@ -48,9 +52,11 @@ header {
   color: var(--accent-color);
 }
 .site-nav-mail {
+  font-style: medium;
   font-size: 14px;
   font-weight: 500;
-  line-height: 100%;
+  line-height: 1.14;
+  letter-spacing: 2%;
 }
 .site-nav-mail-link {
   color: var(--title-text-color);
@@ -64,15 +70,20 @@ header {
   background-color: var(--background-title-color);
 }
 .hero-header {
+  font-style: black;
   font-size: 44px;
   font-weight: 900;
-  line-height: 116%;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  text-align: center;
   color: var(--wite-color);
 }
 .hero-header-button {
+  font-style: bold;
   font-size: 16px;
   font-weight: 700;
-  line-height: 160%;
+  line-height: 1.87;
+  letter-spacing: 6%;
   background-color: var(--accent-color);
   color: var(--wite-color);
   border-radius: 4px;
@@ -86,22 +97,28 @@ header {
 .fichers-list-part {
 }
 .fichers-mini-header {
+  font-style: bold;
   font-size: 14px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 1.14;
+  letter-spacing: 3%;
 }
 .fichers-description {
+  font-style: regular;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 146%;
+  line-height: 1.71;
+  letter-spacing: 3%;
   color: var(--title-text-color);
 }
 .works {
 }
 .works-header {
+  font-style: bold;
   font-size: 36px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  text-align: center;
 }
 .works-list {
 }
@@ -111,9 +128,12 @@ header {
   background-color: rgba(245, 244, 250, 1);
 }
 .team-header {
+  font-style: bold;
   font-size: 36px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  text-align: center;
 }
 .team-list {
 }
@@ -122,14 +142,17 @@ header {
 .team-list-foto {
 }
 .team-name {
+  font-style: medium;
   font-size: 16px;
   font-weight: 500;
-  line-height: 100%;
+  line-height: 1.18;
+  letter-spacing: 3%;
 }
 .team-rank {
+  font-style: regular;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 100%;
+  line-height: 1.18;
+  letter-spacing: 3%;
   color: var(--title-text-color);
 }
 .basement {
@@ -137,9 +160,11 @@ header {
 }
 .logo-footer {
   font-family: raleway;
+  font-style: bold;
   font-size: 26px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 1.19;
+  letter-spacing: 3%;
   color: var(--wite-color);
   text-decoration: none;
 }
@@ -148,9 +173,10 @@ header {
 .basement-list {
 }
 .basement-list-part {
+  font-style: regular;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 146%;
+  line-height: 1.71;
+  letter-spacing: 3%;
   color: var(--wite-color);
   text-decoration: none;
 }
@@ -165,29 +191,35 @@ header {
 .portfolio-section {
 }
 .portfolio-button {
+  font-style: medium;
   font-size: 16px;
   font-weight: 500;
-  line-height: 139%;
+  line-height: 1.62;
+  letter-spacing: 3%;
   background-color: rgba(245, 244, 250, 1);
   border-radius: 4px;
   cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
+  color: var(--wite-color);
   background-color: var(--accent-color);
 }
 
 .portfolio-foto {
 }
 .portfolio-subtitle {
+  font-style: bold;
   font-size: 18px;
   font-weight: 700;
-  line-height: 171%;
+  line-height: 2;
+  letter-spacing: 6%;
 }
 .portfolio-text {
+  font-style: regular;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 160%;
+  line-height: 1.87;
+  letter-spacing: 3%;
   color: var(--title-text-color);
 }
 .portfolio-subtitle-lang {
