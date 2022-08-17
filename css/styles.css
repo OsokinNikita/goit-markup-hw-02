@@ -1,0 +1,194 @@
+/* цветовая палитра */
+:root {
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --title-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --wite-color: rgba(255, 255, 255, 1);
+  --wite-color-footer-to: rgba(255, 255, 255, 0.6);
+  --background-title-color: rgba(47, 48, 58, 1);
+}
+/* общие основы */
+body {
+  background-color: #f5f5f5;
+  color: var(--primary-text-color);
+  font-family: roboto;
+}
+
+ul {
+  list-style: none;
+}
+/* ///// */
+header {
+  background-color: var(--wite-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+.accent {
+  color: var(--accent-color);
+}
+.site-nav {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+  text-decoration: none;
+}
+.site-nav-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.site-nav .site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-mail {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%;
+}
+.site-nav-mail-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.site-nav-mail .site-nav-mail-link:hover,
+.site-nav-mail-link:focus {
+  color: var(--accent-color);
+}
+.hero {
+  background-color: var(--background-title-color);
+}
+.hero-header {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 116%;
+  color: var(--wite-color);
+}
+.hero-header-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  background-color: var(--accent-color);
+  color: var(--wite-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fichers {
+}
+.fichers-list {
+}
+.fichers-list-part {
+}
+.fichers-mini-header {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.fichers-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 146%;
+  color: var(--title-text-color);
+}
+.works {
+}
+.works-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.works-list {
+}
+.works-list-foto {
+}
+.team {
+  background-color: rgba(245, 244, 250, 1);
+}
+.team-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.team-list {
+}
+.team-list-part {
+}
+.team-list-foto {
+}
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+}
+.team-rank {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--title-text-color);
+}
+.basement {
+  background-color: var(--background-title-color);
+}
+.logo-footer {
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--wite-color);
+  text-decoration: none;
+}
+.basement-address {
+}
+.basement-list {
+}
+.basement-list-part {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 146%;
+  color: var(--wite-color);
+  text-decoration: none;
+}
+.basement-text-color-to {
+  color: var(--wite-color-footer-to);
+}
+.basement-list .basement-list-part:hover,
+.basement-list-part:focus {
+  color: var(--accent-color);
+}
+/* страница Portfolio */
+.portfolio-section {
+}
+.portfolio-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 139%;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+}
+
+.portfolio-foto {
+}
+.portfolio-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 171%;
+}
+.portfolio-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--title-text-color);
+}
+.portfolio-subtitle-lang {
+}
