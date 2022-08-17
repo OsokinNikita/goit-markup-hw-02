@@ -9,15 +9,15 @@
 }
 /* общие основы */
 body {
-  background-color: #f5f5f5;
+  background-color: var(--wite-color);
   color: var(--primary-text-color);
-  font-family: roboto, bold;
+  font-family: roboto, sans-serif;
 }
 
 ul {
   list-style: none;
 }
-/* ///// */
+/* /////// */
 header {
   background-color: var(--wite-color);
 }
