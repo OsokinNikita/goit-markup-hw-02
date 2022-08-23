@@ -10,10 +10,21 @@
   --logo-color: rgba(0, 0, 0, 1);
 }
 /* общие основы */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: 1px solid red;
+}
 body {
   background-color: var(--wite-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
+  margin: 0%;
 }
 
 .active:active {
@@ -175,14 +186,13 @@ body {
   color: var(--wite-color);
 }
 .basement-address {
-  font-style: normal;
+  font-style: inherit;
 }
 /* .basement-list {
 } */
 /* .basement-item {
 } */
 .basement-link {
-  font-style: regular;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -202,6 +212,18 @@ body {
 } */
 /* .portfolio-button-item {
 } */
+
+.portfolio-button-all {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--wite-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
 .portfolio-button {
   font-size: 16px;
   font-weight: 500;
